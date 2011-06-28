@@ -7,7 +7,7 @@ aside, nav, article, figure {
 body {
   font-family: verdana,sans-serif; /* "Arial Black", "Georgia","Serif" */;
   font-size: 14px;
-	color: #BBBBBB;/* #222222;  #4E443C */
+  color: #BBBBBB;/* #222222;  #4E443C */
   
   background-color: #101010;
 }
@@ -129,3 +129,37 @@ nav:hover {
       font-weight: bold;
     }
 
+/*
+CSS based on jquery.tweet - https://github.com/seaofclouds/tweet
+*/
+ul.tweet_list {
+  list-style-type: none;
+  color: gray;
+  font-style: italic;  
+  font-family: "Courier New", "Courier";
+  width: 394px;
+  padding: 0;
+  margin: 0;
+}
+  .tweet_list .tweet_avatar {
+    float: left;
+  }
+    .tweet_list .tweet_avatar img{
+      vertical-align: middle;
+    }
+  .tweet_list .tweet_join {    
+    display: block;
+  }
+  .tweet_list .tweet_text {
+    display: block;
+    clear: left;
+    font-style: normal;  
+    color: #BBBBBB;
+  }
+  
+  .tweet_list .awesome,
+  .tweet_list .epic, 
+  .tweet_list .awesome, 
+  .tweet_list .epic {
+    text-transform: uppercase;
+  }
